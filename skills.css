@@ -1,0 +1,202 @@
+.animated-gradient-background{
+    background-color:  #434242;
+    width: 100%;
+    border: 0.5px solid  #434242;
+    border-radius: 15px;
+}
+
+
+.animated-android {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+     /* animation: gradient-android 750ms forwards; */
+     animation-name: gradient-android;
+     animation-duration: 750ms;
+     animation-delay: 0ms;
+     animation-fill-mode: forwards;
+     animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-android { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 66%;
+    }
+  }
+
+  
+.animated-kotlin {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-kotlin 750ms forwards; */
+    animation-name: gradient-kotlin;
+    animation-duration: 750ms;
+    animation-delay: 250ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-kotlin { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 85%;
+    }
+  }
+
+
+  
+.animated-firebase {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+     /* animation: gradient-firebase 750ms forwards; */
+     animation-name: gradient-firebase;
+     animation-duration: 750ms;
+     animation-delay: 350ms;
+     animation-fill-mode: forwards;
+     animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-firebase { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 45%;
+    }
+  }
+
+
+  
+.animated-git {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-git 750ms forwards; */
+    animation-name: gradient-git;
+    animation-duration: 750ms;
+    animation-delay: 450ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-git { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+  }
+
+
+  
+.animated-sql {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-sql 750ms forwards; */
+    animation-name: gradient-sql;
+    animation-duration: 750ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-sql { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+  }
+
+
+  
+.animated-github {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-github 750ms forwards; */
+    animation-name: gradient-github;
+    animation-duration: 750ms;
+    animation-delay: 250ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-github { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+  }
+
+
+  
+.animated-testing {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-testing 750ms forwards; */
+    animation-name: gradient-testing;
+    animation-duration: 750ms;
+    animation-delay: 350ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-testing { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+  }
+
+
+  
+.animated-compose {
+    background: linear-gradient(90deg, var(--main-color) , var(--title-color));
+    width: 0%;
+    height: 8px;
+    /* animation: gradient-compose 750ms forwards; */
+    animation-name: gradient-compose;
+    animation-duration: 750ms;
+    animation-delay: 450ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    border-radius: 15px;
+  }
+  
+  @keyframes gradient-compose  { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 33%;
+    }
+  }
+
+
+
+
+
+    
