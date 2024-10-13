@@ -478,3 +478,7 @@ hr {
     font-size: medium;
     color: #a5adba;
 }
+
+.round_img{
+    border-radius: 16px;
+}
