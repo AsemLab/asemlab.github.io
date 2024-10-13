@@ -458,6 +458,12 @@ hr {
     width: 1em;
 }
 
+.nested_custom_li::marker {
+    color: var(--title-color);
+    display: inline;
+    width: 1em;
+}
+
 .a_body_text {
     font-size: small;
     color: #a5adba;
