@@ -430,6 +430,12 @@ hr {
     font-size: 40px;
 }
 
+.copyright {
+    color: var(--title-color);
+    font-size: 12px;
+    
+}
+
 .text_head {
     color: var(--header-font);
     font-weight: bold;
